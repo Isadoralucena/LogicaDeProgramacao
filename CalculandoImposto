@@ -1,0 +1,11 @@
+Algoritmo “ImpostoDeUmProduto”
+Var
+	preco, imposto, total: Real
+Inicio
+	Escreva(“Qual o valor do produto? ”)
+	Leia(preco)
+	Escreva(“Qual o valor do imposto? ”)
+	Leia(imposto)
+	total <- (preco * imposto) / 100
+	Escreva(“O imposto será de: ”, imposto)
+Fimalgoritmo
