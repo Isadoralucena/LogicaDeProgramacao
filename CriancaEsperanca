@@ -1,0 +1,28 @@
+Algoritmo “CriancaEsperanca”
+Var
+	d: inteiro
+	valor: Real
+Inicio
+	Escreval(“Muito obrigado por ajudar”)
+	Escreval(“[1] para doar R$10,00”)
+	Escreval(“[2] para doar R$25,00”)
+	Escreval(“[3] para doar R$50,00”)
+	Escreval(“[4] para doar outros valores”)
+	Escreval(“[5] para cancelar”)
+	Leia(d)
+	Escolha d
+		Caso 1
+			valor <- 10
+		Caso 2
+			valor <- 25
+		Caso 3
+			valor <- 50
+		Caso 4
+			Escreva(“Qual o valor da doação? R$”)
+			Leia(d)
+		Caso 5
+			Valor <- 0
+		Fimescolha
+		Escreval(“Sua doação foi de R$”, valor)
+		Escreval(“Muito obrigado”)
+Fimalgoritmo
