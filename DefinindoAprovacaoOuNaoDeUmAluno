@@ -1,0 +1,20 @@
+Algoritmo “DefinindoAprovacaoOuNaoDeUmAluno”
+Var
+	n1, n2, m: Real
+Inicio
+	Escreva(“Primeira nota: ”)
+	Leia(n1)
+	Escreva(“Segunda nota ”)
+	Leia(n2)
+	m <- (n1 + n2) / 2
+	Escreval(“A média do aluno foi ”, m)
+	Se(m >= 7)então
+		Escreval(“Aluno aprovado”)
+	senao 
+		Se(m >= 5) e (m < 7) então
+			Escreval(“Aluno em recuperação”)
+		senao
+		 	Escreval(“Aluno reprovado”)
+		FimSe
+	FimSe
+Fimalgoritmo
