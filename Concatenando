@@ -1,0 +1,8 @@
+Algoritmo “PerguntandoNome”
+Var
+	nome: caractere
+Inicio
+	Escreva(“Digite seu nome: ”)
+Leia(nome)
+	Escreva(“Muito prazer”, nome)
+Fimalgoritmo
