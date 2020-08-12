@@ -1,0 +1,12 @@
+Algoritmo “Soma”
+Var
+	n1, n2, s: Inteiro
+Inicio
+	Escreva(“Informe um numero: ”)
+	Leia(n1)
+	Escreva(“Informe outro numero”)
+	Leia(n2)
+	S <- n1 + n2
+	Escreva(“A soma entre ”, n1, “e ”, n2, “é igual a ”, s)
+Fimalgoritmo
+
