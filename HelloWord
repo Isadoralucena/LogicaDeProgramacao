@@ -1,0 +1,8 @@
+Algoritmo “OlaMundo”
+Var
+	msg: caractere
+Inicio
+	//Escreva(“Ola mundo”)
+	msg <- “Ola mundo”
+	Escreva(msg)//Diferente de Escreva(“msg”)
+Fimalgoritmo
