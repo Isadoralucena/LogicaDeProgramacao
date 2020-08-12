@@ -1,0 +1,15 @@
+Algoritmo “Somador”
+Var
+	n, s: Inteiro
+	resp: Caractere
+Inicio
+	s <- 0
+	Repita
+		Escreva(“Digite o valor <- “)
+		Leia(n)
+		s <- s + n
+		Escreva(“Você quer continuar? [S / N]”)
+		Leia(resp)
+	Ate(resp = n)
+		Escreval(“A soma de todos os valores digitados é ”, s)
+ Fimalgoritmo
