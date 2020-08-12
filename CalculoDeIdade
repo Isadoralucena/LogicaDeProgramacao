@@ -1,0 +1,11 @@
+Algoritmo “CalculoDeIdade”
+Var
+	idade, anoNasc, anoAtual: Inteiro
+Inicio
+	Escreva(“Em que ano nós estamos? ”)
+	Leia(anoAtual)
+	Escreva(“Em que ano eu nasci? ”)
+	Leia(anoNasc)
+	Idade <- anoAtual – anoNasc
+	Escreva(“Minha idade será ”, idade)
+Fimalgoritmo
