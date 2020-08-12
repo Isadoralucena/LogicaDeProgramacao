@@ -1,0 +1,16 @@
+Algoritmo “IMC”
+Var
+	massa, altura, IMC: Real
+Inicio
+	Escreva(“Massa(kg): ”)
+	Leia(massa)
+	Escreva(“Altura(m): ”)
+ 	Leia(altura)
+	IMC <- massa / (altura ^ 2)
+	Escreval(“O seu IMC é: ”, IMC)
+	Se(IMC >= 18,5) e (IMC < 25)então
+		Escreva(“O seu peso é ideal”)
+	senao
+		Escreva(“O seu peso não é ideal”)
+	FimSe
+Fimalgoritmo
