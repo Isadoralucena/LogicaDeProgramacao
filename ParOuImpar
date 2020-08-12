@@ -1,0 +1,14 @@
+Algoritmo “ParOuImpar”
+Var
+	numero: Real
+	parOuImpar: Inteiro
+Inicio
+	Escreva(“Diga um número: ”)
+	Leia(numero)
+	parOuImpar <- numero % 2
+	Se(parOuImpar = 1)então
+		Escreva(“O número escolhido é ímpar)
+	Senao
+		Escreva(“O número escolhido é par”)
+	FimSe
+Fimalgoritmo
