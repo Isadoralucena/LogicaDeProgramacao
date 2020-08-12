@@ -1,0 +1,8 @@
+Algoritmo “Contador”
+Var
+	c: Inteiro
+Inicio
+	Para c <- 1 até 10 faca
+		Escreva(c)
+	Fimpara
+Fimalgoritmo
