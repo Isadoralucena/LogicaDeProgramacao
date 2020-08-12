@@ -1,0 +1,11 @@
+Algoritmo “ConversaoDeReaisEmDolares”
+Var
+	total, dolar reais: Real
+Inicio
+	Escreva(“Quantos reais eu tenho? ”)
+	Leia(reais)
+	Escreva(“De quanto está o dólar?  ”)
+	Leia(dolar)
+	total <- reais / dólar
+	Escreva(“Posso ter US$”, total)
+Fimalgoritmo
